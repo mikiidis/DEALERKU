@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Revalia&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+  width: 100%;
+  height: 100%;
+}
+
+.body-cream {
+  width: 100%;
+  height: 100vh;
+  background-color: #ecca75;
+}
+.header-dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo-text {
+  height: 70px;
+  width: 200px;
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-user {
+  background-color: #ffb600;
+  width: 300px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+}
+.box-user > span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.box-user > a {
+  font-size: 16px;
+  color: #2d2d2d;
+}
+
+.body-dashboard {
+  width: 100%;
+  display: flex;
+}
+.sidebar-dashboard {
+  width: 300px;
+  min-height: calc(100vh - 70px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ecca75;
+}
+.sidebar-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-menu {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-menu > a {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #2d2d2d;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sidebar-menu > a:hover,
+.sidebar-menu > a.active {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+.content-dashboard {
+  width: calc(100% - 300px);
+  min-height: calc(100vh - 70px);
+}
+.card-white {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  padding: 30px 30px 0;
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.card-cream {
+  width: 100%;
+  background-color: #ecca75;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  padding: 25px;
+}
+.sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.text-nominal {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #32a653;
+}
+.list-recommend {
+  display: flex;
+  flex-direction: column;
+}
+.list-recommend > a,
+.list-recommend > a:hover {
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+.cart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bars-wrap {
+  width: 150px;
+  height: fit-content;
+  text-align: center;
+}
+.bars-label {
+  margin-top: 15px;
+}
+.bars {
+  height: 200px;
+  width: 100%;
+  background-color: #c4c4c4;
+  position: relative;
+}
+.bars-active {
+  width: 100%;
+  background-color: #67aee1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.card-content {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.form-control-plaintext {
+  border-bottom: 2px solid #2d2d2d;
+}
+.form-control-plaintext:focus-visible {
+  outline: none;
+  border-bottom: 2px solid #67aee1;
+}
+.button-cream {
+  padding: 15px 50px;
+  background-color: #ffb600;
+  border: 2px solid #2d2d2d;
+  color: #2d2d2d;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.header-stok {
+  min-height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header-image {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+.header-image > img {
+  height: 120px;
+}
+.header-stok .logo-text {
+  font-size: 42px;
+  border-bottom: 4px solid #2d2d2d;
+}
+.label-text {
+  font-size: 24px;
+  font-family: "Revalia", sans-serif;
+  margin-top: 15px;
+}
+.scroll-wraper {
+  padding: 80px;
+  width: 100%;
+  background-color: #ecca75;
+}
+.card-item {
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+.card-item-image {
+  width: 100%;
+  height: 185px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.card-item-image > img {
+  min-width: 100%;
+  height: 185px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card-item-text {
+  margin-top: 20px;
+}
+.card-item-text > p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
